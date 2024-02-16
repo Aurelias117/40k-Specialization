@@ -1,0 +1,49 @@
+
+building_fortress_iom = {
+	# icon = building_fortress
+	base_buildtime = 140
+	# add_to_first_building_slot = yes
+	planetary_ftl_inhibitor = yes
+	# add_to_first_building_slot = yes
+
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_origin = origin_gcs_imperium }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { not = { has_origin = origin_gcs_imperium }}
+	}
+	
+	planet_modifier = {
+		planet_housing_add = 2
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		modifier = {
+			job_iom_militarum_add = 3
+		}
+	}
+
+	resources = {
+		category = planet_buildings_strongholds
+		cost = {
+			minerals = @b2_minerals
+		}			
+		upkeep = {
+			energy = 3
+			food = 2
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}

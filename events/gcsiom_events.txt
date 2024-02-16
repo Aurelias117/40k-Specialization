@@ -1,0 +1,27 @@
+namespace = GCSE
+
+event = {
+	id = GCSE.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		every_country = {
+			limit = { 
+				has_origin = origin_gcs_imperium
+			}
+			ruler = {
+				add_ruler_trait = trait_man_emperor_mankind
+				add_ruler_trait = leader_trait_ruler_psionic
+			}
+			capital_scope = {
+				gcsiom_initialize = yes
+				add_modifier = { modifier = unification_war_terra_planet_modifier days = -1 }
+			}
+			give_technology = {
+			tech = tech_planetary_unification
+			message = no
+			}
+		}
+	}
+}

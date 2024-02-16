@@ -1,0 +1,76 @@
+#Defensive armies can't transport of the planet
+#maintenance is directly scripted here. 0.25 translates to 0.25 monthly cost (excluding other upkeep modifiers)
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# Assault Armies
+
+
+# Imperial Armies
+iom_ig_company = {
+	damage = 5.0
+	health = 15.0
+	morale = 15.0
+	morale_damage = 1.0
+	collateral_damage = 1.0
+	war_exhaustion = 1.0
+	has_morale = yes
+	has_species = yes
+	time = 80
+	icon = GFX_army_type_ig_company
+	prerequisites = { "tech_assault_armies" }
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 1.5
+			alloys = 0.10
+			food = 0.20
+		}
+	}
+	
+	potential = {		
+		planet = {
+			has_active_building = building_fortress_iom			
+		}
+	}
+	
+}
+
+iom_ig_garrison = {
+	damage = 3.0
+	health = 20.0
+	morale = 20.0
+	morale_damage = 1.0
+	collateral_damage = 1.0
+	war_exhaustion = 0
+	has_morale = yes
+	defensive = yes
+	has_species = yes
+	time = 80
+	icon = GFX_army_type_ig_garrison
+    prerequisites = { "tech_assault_armies" }	
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 1.5
+			alloys = 0.10
+			food = 0.10
+		}
+	}
+		
+	potential = {		
+		planet = {
+			has_active_building = building_fortress_iom			
+		}
+	}
+}
+

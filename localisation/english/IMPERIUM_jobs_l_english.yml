@@ -1,0 +1,26 @@
+﻿l_english:
+#################################
+ job_iom_militarum:0 "Militarum"
+ job_iom_militarum_plural:0 "Militarum"
+ job_iom_militarum_desc:0 "To fight and to die in the name of Man Emperor of Mankind."
+ mod_job_iom_militarum_add:0 "Militarum Jobs"
+ mod_job_iom_militarum_per_pop:0 "§G+1§! $job_iom_militarum$ Job per $VALUE$ Pops"
+ mod_job_iom_militarum_per_pop_short:0 "\n§G+1§! £mod_job_iom_militarum_add£ per $VALUE$ £pop£"
+ job_military_artisan:0 "Military Artisan"
+ job_military_artisan_plural:0 "Military Artisans"
+ job_military_artisan_desc:0 "Skilled craft workers that manufacture military goods of various types."
+ job_military_artisan_effect_desc:0 "£job_military_artisan£ $job_military_artisan_plural$ turn £alloys£ §Y$alloys$§! into £military_goods£ §Y$military_goods$§!"
+############################font color code
+##§W Wwhite
+##§R R red
+##§L L Dark Gold
+##§S S Naturals
+##§H HGolden
+##§Y Y yellow
+##§G G green
+##§E E Cyan
+##§B B dark blue
+##§M M Purple
+##§g g grey
+##§! Finish
+############################font color code

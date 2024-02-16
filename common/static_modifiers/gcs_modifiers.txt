@@ -1,0 +1,6 @@
+#### Unification Wars of Terra #####
+unification_war_terra_planet_modifier = {	
+	icon = "gfx/interface/icons/planet_modifiers/icon_raptor_imperialis.dds"
+	job_soldier_add = 5
+	planet_stability_add = 10
+}

@@ -1,0 +1,13 @@
+﻿l_russian:
+
+ iom_ig_ten_company:0 "$pmca_ten$ $iom_ig_company$"
+ iom_ig_ten_company_desc:0 "$iom_ig_company_desc$"
+ iom_ig_ten_garrison:0 "$pmca_ten$ $iom_ig_garrison$"
+ iom_ig_ten_garrison_desc:0 "$iom_ig_garrison_desc$"
+ 
+ iom_ig_hundred_company:0 "$pmca_hundred$ $iom_ig_company$"
+ iom_ig_hundred_company_desc:0 "$iom_ig_company_desc$"
+ iom_ig_hundred_garrison:0 "$pmca_hundred$ $iom_ig_garrison$"
+ iom_ig_hundred_garrison_desc:0 "$iom_ig_garrison_desc$"
+
+ 

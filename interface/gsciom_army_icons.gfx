@@ -1,0 +1,12 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_army_type_ig_company"
+		texturefile = "gfx/interface/icons/armies/ig_company_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_army_type_ig_garrison"
+		texturefile = "gfx/interface/icons/armies/ig_garrison_icon.dds"
+	}
+		
+}
