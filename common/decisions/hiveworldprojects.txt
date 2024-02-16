@@ -22,14 +22,9 @@ decision_hive_arid_project = {
 
 	potential = {
         OR = {
-			AND = {
-				has_planetary_diversity = no
-				OR = {
-					is_planet_class = pc_arid
-        			is_planet_class = pc_desert
-        			is_planet_class = pc_savannah
-				}
-			}
+			is_planet_class = pc_arid
+        	is_planet_class = pc_desert
+        	is_planet_class = pc_savannah
 			AND = {
 				has_planetary_diversity = yes
 				OR = {
@@ -94,14 +89,9 @@ decision_hive_continental_project = {
 
 	potential = {
         OR = {
-			AND = {
-				has_planetary_diversity = no
-				OR = {
-					is_planet_class = pc_tropical
-        			is_planet_class = pc_continental
-        			is_planet_class = pc_gaia
-				}
-			}
+			is_planet_class = pc_tropical
+        	is_planet_class = pc_continental
+        	is_planet_class = pc_gaia
 			AND = {
 				has_planetary_diversity = yes
 				OR = {
@@ -166,13 +156,8 @@ decision_hive_ocean_project = {
 
 	potential = {
         OR = {
-			AND = {
-				has_planetary_diversity = no
-				OR = {
-					is_planet_class = pc_ocean
-        			is_planet_class = pc_arctic
-				}
-			}
+			is_planet_class = pc_ocean
+        	is_planet_class = pc_arctic
 			AND = {
 				has_planetary_diversity = yes
 				OR = {
@@ -236,13 +221,8 @@ decision_hive_tundra_project = {
 
 	potential = {
         OR = {
-			AND = {
-				has_planetary_diversity = no
-				OR = {
-					is_planet_class = pc_tundra
-        			is_planet_class = pc_alpine
-				}
-			}
+			is_planet_class = pc_tundra
+        	is_planet_class = pc_alpine
 			AND = {
 				has_planetary_diversity = yes
 				OR = {
