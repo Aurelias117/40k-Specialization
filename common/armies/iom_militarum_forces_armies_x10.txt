@@ -1,0 +1,92 @@
+# Armies
+iom_ig_ten_company = {
+	damage = 45
+	health = 40
+	morale = 40
+	morale_damage = 1.5
+	collateral_damage = 10
+	war_exhaustion = 30
+	has_morale = yes
+	has_species = yes
+	time = 250
+	icon = GFX_army_type_ig_company
+
+	prerequisites = { "tech_assault_armies" }
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 10000
+		}
+
+		upkeep = {
+			energy = 60
+			alloys = 2.5
+		}
+	}
+
+	potential_country = {
+		pmca_materiel_policy_check = {
+			PMCA_MULT = ten
+			PMCA_RESOURCE = minerals
+			PMCA_VALUE = 10000
+		}
+	}
+	
+	potential = {		
+		planet = {
+			has_active_building = building_fortress_iom				
+		}
+	}
+	
+}
+
+iom_ig_ten_garrison = {
+	damage = 40
+	health = 50
+	morale = 40
+	morale_damage = 1.0
+	collateral_damage = 10
+	war_exhaustion = 0
+	has_morale = yes
+	defensive = yes
+	has_species = yes
+	time = 250
+	icon = GFX_army_type_ig_garrison
+
+	prerequisites = { "tech_assault_armies" }	
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 8000
+		}
+
+		upkeep = {
+			energy = 60
+			alloys = 2.5
+		}
+		produces = {
+			trigger = {
+				exists = owner
+				owner = { has_active_tradition = tr_unyielding_resistance_is_frugal }
+			}
+			unity = 5
+		}
+	}
+
+	potential_country = {
+		pmca_materiel_policy_check = {
+			PMCA_MULT = ten
+			PMCA_RESOURCE = minerals
+			PMCA_VALUE = 8000
+		}
+	}
+		
+	potential = {		
+		planet = {
+			has_active_building = building_fortress_iom				
+		}
+	}
+}
+

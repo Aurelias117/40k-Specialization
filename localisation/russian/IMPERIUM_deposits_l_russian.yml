@@ -1,0 +1,50 @@
+﻿l_russian:
+#################################
+d_iom_imperial_palace:0 "§HИмперский Дворец§!"
+d_iom_imperial_palace_desc:0 "Императорский дворец является резиденцией Адептус Терра и центром имперской власти и административных полномочий на ёе Тронном мире Терра."
+d_iom_city_ruined:0 "Городские руины"
+d_iom_city_ruined_desc:0 "Остатки крупных городов-ульев."
+d_iom_eternity_gate:0 "§HВрата Вечности§!"
+d_iom_eternity_gate_desc:0 "Врата Вечности - это последние врата Императорского дворца в Святилище Империалис, где находится Золотой Трон и сам Император."
+d_iom_forbidden_fortress:0 "§HЗапретная Крепость§!"
+d_iom_forbidden_fortress_desc:0 "Запретная Крепость, также известная как Крепость Астрономикона или Полая Гора, является базой Адептус Астрономика, включающей в себя Зал Астрономикона и сам Астрономикан."
+d_terra_hive_karelia_sprawl:0 "Улей Карелия"
+d_terra_hive_karelia_sprawl_desc:0 "Здесь находится библиотека, содержащая знания о Темном веке технологий. Библиотека подверглась бомбардировке сторонниками панпацифизма, и ее планировалось снести, пока Хавсеру не удалось восстановить более 7000 текстов из архива данных, признанного бесполезным."
+d_terra_hive_tashkent_sprawl:0 "Улей Ташкент"
+d_terra_hive_tashkent_sprawl_desc:0 "Город-улей, расположенный на азиатском континенте."
+d_terra_hive_salvator_sprawl:0 "Улей Сальватор"
+d_terra_hive_salvator_sprawl_desc:0 "Город-улей на Терре"
+d_terra_hive_malliax_sprawl:0 "Улей Маллиакс"
+d_terra_hive_malliax_sprawl_desc:0 "Город-улей на Терре"
+d_terra_hive_novion_primus_sprawl:0 "Улей Novion Primus"
+d_terra_hive_novion_primus_sprawl_desc:0 "Город-улей на Терре"
+d_terra_hive_xericho_sprawl:0 "Улей Иерихон"
+d_terra_hive_xericho_sprawl_desc:0 "Город-улей на Терре"
+d_terra_hive_ababa_sprawl:0 "Улей Абеба"
+d_terra_hive_ababa_sprawl_desc:0 "Город-улей на Терре"
+d_terra_hive_skhallax_sprawl:0 "Улей Схаллакс"
+d_terra_hive_skhallax_sprawl_desc:0 "Схаллакс-Сити - огромный город-улей и производственный центр на Терре."
+d_iom_wyverns_gate_spaceport:0 "Космопорт Врата Виверны"
+d_iom_wyverns_gate_spaceport_desc:0 "Космопорт Врата Виверны"
+d_iom_lion_gate_spaceport:0 "Космопорт Львиные Врата"
+d_iom_lion_gate_spaceport_desc:0 "Космопорт Львиные Врата"
+d_iom_damocles_spaceport:0 "Дамоклов космический порт"
+d_iom_damocles_spaceport_desc:0 "Дамоклов космический порт"
+d_iom_khangba_marwu_prison:0 "Тюрьма Кхангба Марву"
+d_iom_khangba_marwu_prison_desc:0 "Кхангба Марву, также известный как Хранилище, был обширным тюремным комплексом, расположенным в Гималайских горах, под горой, известной как Ракапоши. Секции тюрьмы были спроектированы специально для размещения могущественных псайкеров."
+
+
+############################font color code
+##§W Wwhite
+##§R R red
+##§L L Dark Gold
+##§S S Naturals
+##§H HGolden
+##§Y Y yellow
+##§G G green
+##§E E Cyan
+##§B B dark blue
+##§M M Purple
+##§g g grey
+##§! Finish
+############################font color code

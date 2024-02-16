@@ -1,0 +1,36 @@
+﻿l_english:
+#################################
+
+gene_warrior_army:0 "Space Marine Legion"
+gene_warrior_army_plural:0 "Space Marines Legions"
+gene_warrior_army_desc:0 "They shall be my finest warriors, these men who give of themselves to me. Like clay I shall mould them and in the furnace of war I shall forge them. They shall be of iron will and steely sinew. In great armour I shall clad them and with the mightiest weapons shall they be armed. They will be untouched by plague or disease; no sickness shall blight them. They shall have such tactics, strategies and machines that no foe will best them in battle. They are my bulwark against the Terror. They are the Defenders of Humanity. They are my Space Marines...and they shall know no fear."
+assault_army:0 "Guardsman Legion"
+assault_army_plural:0 "Guardsman Legions"
+assault_army_desc:0 "Men, we are the first, last and often only line of defence the Imperium has against what is out there. You and that fine piece of Imperial weaponry you hold in your hands is all that is keeping humanity alive. Most of you will probably not live to see your second year in the Guard and most of you will probably never see your homeworlds again, but I can guarantee you that when you do fall, with a prayer to the most high and mighty God-Emperor on your lips, you will have earned the right to call yourself a man!"
+clone_army:0 "Kriegsmen Regiment"
+clone_army_plural:0 "Kriegsmen Regiments"
+clone_army_desc:1 "In life, war. In death, peace. In life, shame. In death, atonement."
+robotic_army:1 "Skitarii"
+robotic_army_plural:0 "Skitarii"
+robotic_army_desc:0 "The odds of success are approximately 3752 to 1. As the Omnissiah wills, I shall find a way."
+psionic_army:0 "Battle Psyker"
+psionic_army_plural:0 "Battle Psykers"
+psionic_army_desc:0 "Soldiers gifted with psionic abilities. Their focus on destructive psionic powers has led to drastically different tactics and strategies on the battlefield - their first objective is always to remove the enemy's willingness to fight."
+xenomorph_army:0 "Combat Servitor"
+xenomorph_army_plural:0 "Combat Servitors"
+xenomorph_army_desc:0 "Even the Unworthy shall fight in the emperors name"
+
+############################font color code
+##§W Wwhite
+##§R R red
+##§L L Dark Gold
+##§S S Naturals
+##§H HGolden
+##§Y Y yellow
+##§G G green
+##§E E Cyan
+##§B B dark blue
+##§M M Purple
+##§g g grey
+##§! Finish
+############################font color code

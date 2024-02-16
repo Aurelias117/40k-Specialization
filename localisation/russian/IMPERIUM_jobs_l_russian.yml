@@ -1,0 +1,23 @@
+﻿l_russian:
+#################################
+ job_iom_militarum:0 "Милитарум"
+ job_iom_militarum_plural:0 "Милитарум"
+ job_iom_militarum_desc:0 "Сражаться и умереть во имя Императора Человечества."
+ mod_job_iom_militarum_add:0 "Работы Милитарум"
+ mod_job_iom_militarum_per_pop:0 "§G+1§! $job_iom_militarum$ Работ за $VALUE$ Pops"
+ mod_job_iom_militarum_per_pop_short:0 "\n§G+1§! £mod_job_iom_militarum_add£ за $VALUE$ £pop£"
+
+############################font color code
+##§W Wwhite
+##§R R red
+##§L L Dark Gold
+##§S S Naturals
+##§H HGolden
+##§Y Y yellow
+##§G G green
+##§E E Cyan
+##§B B dark blue
+##§M M Purple
+##§g g grey
+##§! Finish
+############################font color code
