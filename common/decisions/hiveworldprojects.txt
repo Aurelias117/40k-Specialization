@@ -22,10 +22,23 @@ decision_hive_arid_project = {
 
 	potential = {
         OR = {
-			is_planet_class = pc_arid
-        	is_planet_class = pc_desert
-        	is_planet_class = pc_savannah
-		}
+			AND = {
+				has_planetary_diversity = no
+				OR = {
+					is_planet_class = pc_arid
+        			is_planet_class = pc_desert
+        			is_planet_class = pc_savannah
+				}
+			}
+			AND = {
+				has_planetary_diversity = yes
+				OR = {
+					is_pd_arid = yes
+					is_pd_desert = yes
+					is_pd_savannah = yes
+				}
+			}
+        }
 		habitable_structure = no
 		exists = owner
 		#owner = { has_ascension_perk = ap_arcology_project }
@@ -81,10 +94,23 @@ decision_hive_continental_project = {
 
 	potential = {
         OR = {
-			is_planet_class = pc_tropical
-        	is_planet_class = pc_continental
-        	is_planet_class = pc_gaia
-		}
+			AND = {
+				has_planetary_diversity = no
+				OR = {
+					is_planet_class = pc_tropical
+        			is_planet_class = pc_continental
+        			is_planet_class = pc_gaia
+				}
+			}
+			AND = {
+				has_planetary_diversity = yes
+				OR = {
+					is_pd_tropical = yes
+					is_pd_continental = yes
+					is_pd_gaia = yes
+				}
+			}
+        }
 		habitable_structure = no
 		exists = owner
 		#owner = { has_ascension_perk = ap_arcology_project }
@@ -140,9 +166,21 @@ decision_hive_ocean_project = {
 
 	potential = {
         OR = {
-			is_planet_class = pc_ocean
-        	is_planet_class = pc_arctic
-		}
+			AND = {
+				has_planetary_diversity = no
+				OR = {
+					is_planet_class = pc_ocean
+        			is_planet_class = pc_arctic
+				}
+			}
+			AND = {
+				has_planetary_diversity = yes
+				OR = {
+					is_pd_ocean = yes
+					is_pd_arctic = yes
+				}
+			}
+        }
 		habitable_structure = no
 		exists = owner
 		#owner = { has_ascension_perk = ap_arcology_project }
@@ -198,9 +236,21 @@ decision_hive_tundra_project = {
 
 	potential = {
         OR = {
-			is_planet_class = pc_tundra
-        	is_planet_class = pc_alpine
-		}
+			AND = {
+				has_planetary_diversity = no
+				OR = {
+					is_planet_class = pc_tundra
+        			is_planet_class = pc_alpine
+				}
+			}
+			AND = {
+				has_planetary_diversity = yes
+				OR = {
+					is_pd_tundra = yes
+					is_pd_alpine = yes
+				}
+			}
+        }
 		habitable_structure = no
 		exists = owner
 		#owner = { has_ascension_perk = ap_arcology_project }
