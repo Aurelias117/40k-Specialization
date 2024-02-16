@@ -305,13 +305,7 @@ decision_hive_medium_project = {
 	}
 
 	potential = {
-        OR = {
-        is_planet_class = pc_hive_arid
-        is_planet_class = pc_hive_continental_01
-        is_planet_class = pc_hive_continental_02
-        is_planet_class = pc_hive_ocean
-        is_planet_class = pc_hive_tundra
-        }
+        is_wh_planet_small_hive = yes
 		habitable_structure = no
 		exists = owner
 		#owner = { has_ascension_perk = ap_arcology_project }
@@ -362,13 +356,7 @@ decision_hive_industrial_project = {
 	}
 
 	potential = {
-        OR = {
-        is_planet_class = pc_hive_arid
-        is_planet_class = pc_hive_continental_01
-        is_planet_class = pc_hive_continental_02
-        is_planet_class = pc_hive_ocean
-        is_planet_class = pc_hive_tundra
-        }
+        is_wh_planet_small_hive = yes
 		habitable_structure = no
 		exists = owner
 		#owner = { has_ascension_perk = ap_arcology_project }
@@ -525,43 +513,13 @@ decision_agri_world_project = {
 		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_relic
-is_planet_class = pc_industrial
-			is_planet_class = pc_forge
-			is_planet_class = pc_forgee
-			is_planet_class = pc_forgeee
-			is_planet_class = pc_forge_ring
-			is_planet_class = pc_forge_ring2
-			is_planet_class = pc_forge_ring3
-            		is_planet_class = pc_agri
-			is_planet_class = pc_shrine
-            		is_planet_class = pc_penal
-            		is_planet_class = pc_fortress
-			is_planet_class = pc_hive_arid
-			is_planet_class = pc_hive_arid
-            		is_planet_class = pc_hive_continental_01
-			is_planet_class = pc_hive_continental_02
-			is_planet_class = pc_hive_ocean
-			is_planet_class = pc_hive_tundra
-			is_planet_class = pc_hive_medium
-			is_planet_class = pc_hive_industrial
-			is_planet_class = pc_super_hive
-			is_planet_class = pc_mega_hive
-			is_planet_class = pc_craftworld
-			is_planet_class = pc_advancecity
-			is_planet_class = pc_webway
-			is_planet_class = pc_daemon
-			is_planet_class = pc_daemonn
-			is_planet_class = pc_daemont
-			is_planet_class = pc_daemons
-			is_planet_class = pc_advancexenocity
-			is_planet_class = pc_advancexenocityy
-			is_planet_class = pc_advancexenocityyy
 			has_modifier = resort_colony
 			has_modifier = penal_colony
 			has_modifier = slave_colony
 			has_modifier = pm_wenkwort_custodian
 		}
-		        habitable_structure = no
+		is_wh_planet_all = no
+        habitable_structure = no
 		exists = owner
     }
 
@@ -623,43 +581,13 @@ decision_penal_world_project = {
 		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_relic
-is_planet_class = pc_industrial
-			is_planet_class = pc_forge
-			is_planet_class = pc_forgee
-			is_planet_class = pc_forgeee
-			is_planet_class = pc_forge_ring
-			is_planet_class = pc_forge_ring2
-			is_planet_class = pc_forge_ring3
-            		is_planet_class = pc_agri
-			is_planet_class = pc_shrine
-            		is_planet_class = pc_penal
-            		is_planet_class = pc_fortress
-			is_planet_class = pc_hive_arid
-			is_planet_class = pc_hive_arid
-            		is_planet_class = pc_hive_continental_01
-			is_planet_class = pc_hive_continental_02
-			is_planet_class = pc_hive_ocean
-			is_planet_class = pc_hive_tundra
-			is_planet_class = pc_hive_medium
-			is_planet_class = pc_hive_industrial
-			is_planet_class = pc_super_hive
-			is_planet_class = pc_mega_hive
-			is_planet_class = pc_craftworld
-			is_planet_class = pc_advancecity
-			is_planet_class = pc_webway
-			is_planet_class = pc_daemon
-			is_planet_class = pc_daemonn
-			is_planet_class = pc_daemont
-			is_planet_class = pc_daemons
-			is_planet_class = pc_advancexenocity
-			is_planet_class = pc_advancexenocityy
-			is_planet_class = pc_advancexenocityyy
 			has_modifier = resort_colony
 			has_modifier = penal_colony
 			has_modifier = slave_colony
 			has_modifier = pm_wenkwort_custodian
 		}
-		        habitable_structure = no
+		is_wh_planet_all = no
+        habitable_structure = no
 		exists = owner
     }
 
@@ -712,35 +640,15 @@ decision_fortress_world_project = {
 		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_relic
-is_planet_class = pc_industrial
-			is_planet_class = pc_forge
-			is_planet_class = pc_forgee
-			is_planet_class = pc_forgeee
-			is_planet_class = pc_forge_ring
-			is_planet_class = pc_forge_ring2
-			is_planet_class = pc_forge_ring3
-			is_planet_class = pc_shrine
-            		is_planet_class = pc_penal
-            		is_planet_class = pc_fortress
-			is_planet_class = pc_hive_medium
-			is_planet_class = pc_hive_industrial
-			is_planet_class = pc_super_hive
-			is_planet_class = pc_mega_hive
-			is_planet_class = pc_craftworld
-			is_planet_class = pc_advancecity
-			is_planet_class = pc_webway
-			is_planet_class = pc_daemon
-			is_planet_class = pc_daemonn
-			is_planet_class = pc_daemont
-			is_planet_class = pc_daemons
-			is_planet_class = pc_advancexenocity
-			is_planet_class = pc_advancexenocityy
-			is_planet_class = pc_advancexenocityyy
 			has_modifier = resort_colony
 			has_modifier = penal_colony
 			has_modifier = slave_colony
 			has_modifier = pm_wenkwort_custodian
-				}
+		}
+		OR = {
+			is_wh_planet_all = no
+			is_wh_planet_small_hive = yes
+		}
         habitable_structure = no
 		exists = owner
     }
