@@ -25,6 +25,7 @@ decision_arcology_project_IOM = {
 			has_modifier = penal_colony
 			has_modifier = slave_colony
 		}
+		has_deposit = d_iom_imperial_palace
 		is_artificial = no
 		exists = owner
 		owner = { is_regular_empire = yes }
