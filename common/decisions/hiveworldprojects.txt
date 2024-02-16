@@ -22,9 +22,22 @@ decision_hive_arid_project = {
 
 	potential = {
         OR = {
-        is_planet_class = pc_arid
-        is_planet_class = pc_desert
-        is_planet_class = pc_savannah
+			AND = {
+				has_planetary_diversity = no
+				OR = {
+					is_planet_class = pc_arid
+        			is_planet_class = pc_desert
+        			is_planet_class = pc_savannah
+				}
+			}
+			AND = {
+				has_planetary_diversity = yes
+				OR = {
+					is_pd_arid = yes
+					is_pd_desert = yes
+					is_pd_savannah = yes
+				}
+			}
         }
 		habitable_structure = no
 		exists = owner
@@ -81,9 +94,22 @@ decision_hive_continental_project = {
 
 	potential = {
         OR = {
-        is_planet_class = pc_tropical
-        is_planet_class = pc_continental
-        is_planet_class = pc_gaia
+			AND = {
+				has_planetary_diversity = no
+				OR = {
+					is_planet_class = pc_tropical
+        			is_planet_class = pc_continental
+        			is_planet_class = pc_gaia
+				}
+			}
+			AND = {
+				has_planetary_diversity = yes
+				OR = {
+					is_pd_tropical = yes
+					is_pd_continental = yes
+					is_pd_gaia = yes
+				}
+			}
         }
 		habitable_structure = no
 		exists = owner
@@ -140,8 +166,20 @@ decision_hive_ocean_project = {
 
 	potential = {
         OR = {
-        is_planet_class = pc_ocean
-        is_planet_class = pc_arctic
+			AND = {
+				has_planetary_diversity = no
+				OR = {
+					is_planet_class = pc_ocean
+        			is_planet_class = pc_arctic
+				}
+			}
+			AND = {
+				has_planetary_diversity = yes
+				OR = {
+					is_pd_ocean = yes
+					is_pd_arctic = yes
+				}
+			}
         }
 		habitable_structure = no
 		exists = owner
@@ -198,8 +236,20 @@ decision_hive_tundra_project = {
 
 	potential = {
         OR = {
-        is_planet_class = pc_tundra
-        is_planet_class = pc_alpine
+			AND = {
+				has_planetary_diversity = no
+				OR = {
+					is_planet_class = pc_tundra
+        			is_planet_class = pc_alpine
+				}
+			}
+			AND = {
+				has_planetary_diversity = yes
+				OR = {
+					is_pd_tundra = yes
+					is_pd_alpine = yes
+				}
+			}
         }
 		habitable_structure = no
 		exists = owner
@@ -370,7 +420,7 @@ decision_super_hive_project = {
 	}
 
 	potential = {
-        	is_planet_class = pc_hive_medium
+        is_planet_class = pc_hive_medium
 		habitable_structure = no
 		exists = owner
 		#owner = { has_ascension_perk = ap_arcology_project }
@@ -422,7 +472,7 @@ decision_mega_hive_project = {
 	}
 
 	potential = {
-        	is_planet_class = pc_hive_industrial
+        is_planet_class = pc_hive_industrial
 		habitable_structure = no
 		exists = owner
 		#owner = { has_ascension_perk = ap_arcology_project }
@@ -475,7 +525,7 @@ decision_agri_world_project = {
 		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_relic
-            		is_planet_class = pc_industrial
+is_planet_class = pc_industrial
 			is_planet_class = pc_forge
 			is_planet_class = pc_forgee
 			is_planet_class = pc_forgeee
@@ -511,7 +561,7 @@ decision_agri_world_project = {
 			has_modifier = slave_colony
 			has_modifier = pm_wenkwort_custodian
 		}
-        habitable_structure = no
+		        habitable_structure = no
 		exists = owner
     }
 
@@ -573,7 +623,7 @@ decision_penal_world_project = {
 		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_relic
-            		is_planet_class = pc_industrial
+is_planet_class = pc_industrial
 			is_planet_class = pc_forge
 			is_planet_class = pc_forgee
 			is_planet_class = pc_forgeee
@@ -609,7 +659,7 @@ decision_penal_world_project = {
 			has_modifier = slave_colony
 			has_modifier = pm_wenkwort_custodian
 		}
-        habitable_structure = no
+		        habitable_structure = no
 		exists = owner
     }
 
@@ -662,7 +712,7 @@ decision_fortress_world_project = {
 		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_relic
-            		is_planet_class = pc_industrial
+is_planet_class = pc_industrial
 			is_planet_class = pc_forge
 			is_planet_class = pc_forgee
 			is_planet_class = pc_forgeee
@@ -690,7 +740,7 @@ decision_fortress_world_project = {
 			has_modifier = penal_colony
 			has_modifier = slave_colony
 			has_modifier = pm_wenkwort_custodian
-		}
+				}
         habitable_structure = no
 		exists = owner
     }
