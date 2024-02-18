@@ -7,10 +7,8 @@ decision_hive_arid_project = {
 	owned_planets_only = yes
     ### UPDATE THIS FROM VANILLA ###
 	icon = decision_small_hive_project
-    ###
 
 	enactment_time = 1600
-    #enactment_time = 1 #for testing
 	resources = {
 		category = decisions
 		cost = {
@@ -19,7 +17,6 @@ decision_hive_arid_project = {
             alloys = 2000
 		}
 	}
-
 	potential = {
         OR = {
 			is_planet_class = pc_arid
@@ -36,7 +33,7 @@ decision_hive_arid_project = {
         }
 		habitable_structure = no
 		exists = owner
-		#owner = { has_ascension_perk = ap_arcology_project }
+		owner = { has_ascension_perk = ap_imperial_planet_designations }
 	}
 
 	allow = {
@@ -46,6 +43,7 @@ decision_hive_arid_project = {
 			num_districts = { type = district_mining value < 1 }
 			num_districts = { type = district_generator value < 1 }
             num_districts = { type = district_city value >= 6 }
+
 		}
 		num_uncleared_blockers < 1
         num_pops >= 20
@@ -63,7 +61,6 @@ decision_hive_arid_project = {
 			}
 		}
 	}
-
 	ai_weight = {
 		weight = 0
 	}
@@ -86,7 +83,6 @@ decision_hive_continental_project = {
             alloys = 2000
 		}
 	}
-
 	potential = {
         OR = {
 			is_planet_class = pc_tropical
@@ -103,9 +99,8 @@ decision_hive_continental_project = {
         }
 		habitable_structure = no
 		exists = owner
-		#owner = { has_ascension_perk = ap_arcology_project }
+		owner = { has_ascension_perk = ap_imperial_planet_designations }
 	}
-
 	allow = {
 		custom_tooltip = {
 			fail_text = decision_hive_continental_project_requirements
@@ -117,7 +112,6 @@ decision_hive_continental_project = {
 		num_uncleared_blockers < 1
         num_pops >= 20
 	}
-
 	effect = {
 		# Make Small Hive World
 		custom_tooltip = decision_hive_continental_project_effects
@@ -130,7 +124,6 @@ decision_hive_continental_project = {
 			}
 		}
 	}
-
 	ai_weight = {
 		weight = 0
 	}
@@ -168,7 +161,7 @@ decision_hive_ocean_project = {
         }
 		habitable_structure = no
 		exists = owner
-		#owner = { has_ascension_perk = ap_arcology_project }
+		owner = { has_ascension_perk = ap_imperial_planet_designations}
 	}
 
 	allow = {
@@ -195,7 +188,6 @@ decision_hive_ocean_project = {
 			}
 		}
 	}
-
 	ai_weight = {
 		weight = 0
 	}
@@ -233,7 +225,7 @@ decision_hive_tundra_project = {
         }
 		habitable_structure = no
 		exists = owner
-		#owner = { has_ascension_perk = ap_arcology_project }
+		owner = { has_ascension_perk = ap_imperial_planet_designations }
 	}
 
 	allow = {
@@ -260,7 +252,6 @@ decision_hive_tundra_project = {
 			}
 		}
 	}
-
 	ai_weight = {
 		weight = 0
 	}
@@ -288,7 +279,7 @@ decision_hive_medium_project = {
         is_wh_planet_small_hive = yes
 		habitable_structure = no
 		exists = owner
-		#owner = { has_ascension_perk = ap_arcology_project }
+		#owner = { has_ascension_perk = ap_imperial_planet_designations }
 	}
 
 	allow = {
@@ -311,7 +302,6 @@ decision_hive_medium_project = {
 			}
 		}
 	}
-
 	ai_weight = {
 		weight = 0
 	}
@@ -339,7 +329,7 @@ decision_hive_industrial_project = {
         is_wh_planet_small_hive = yes
 		habitable_structure = no
 		exists = owner
-		#owner = { has_ascension_perk = ap_arcology_project }
+		#owner = { has_ascension_perk = ap_imperial_planet_designations }
 	}
 
 	allow = {
@@ -362,7 +352,6 @@ decision_hive_industrial_project = {
 			}
 		}
 	}
-
 	ai_weight = {
 		weight = 0
 	}
@@ -391,7 +380,7 @@ decision_super_hive_project = {
         is_planet_class = pc_hive_medium
 		habitable_structure = no
 		exists = owner
-		#owner = { has_ascension_perk = ap_arcology_project }
+		#owner = { has_ascension_perk = ap_imperial_planet_designations }
 	}
 
 	allow = {
@@ -443,7 +432,7 @@ decision_mega_hive_project = {
         is_planet_class = pc_hive_industrial
 		habitable_structure = no
 		exists = owner
-		#owner = { has_ascension_perk = ap_arcology_project }
+		#owner = { has_ascension_perk = ap_imperial_planet_designations }
 	}
 
 	allow = {
@@ -501,6 +490,7 @@ decision_agri_world_project = {
 		is_wh_planet_all = no
         habitable_structure = no
 		exists = owner
+                owner = { has_ascension_perk = ap_imperial_planet_designations }
     }
 
 	allow = {
@@ -631,6 +621,7 @@ decision_fortress_world_project = {
 		}
         habitable_structure = no
 		exists = owner
+                owner = { has_ascension_perk = ap_imperial_planet_designations }
     }
 
 

@@ -20,6 +20,7 @@ decision_forge_project_IOM = {
 			is_planet_class = pc_habitat
 			is_planet_class = pc_ringworld_habitable
 			is_planet_class = pc_machine
+                        is_planet_class = pc_mechanicus_forge
 			has_modifier = resort_colony
 			has_modifier = penal_colony
 			has_modifier = slave_colony
@@ -28,6 +29,7 @@ decision_forge_project_IOM = {
 		is_artificial = no
 		exists = owner
 		owner = { has_origin = origin_gcs_imperium }
+                owner = { has_ascension_perk = ap_imperial_planet_designations } 
 	}
 
 	allow = {

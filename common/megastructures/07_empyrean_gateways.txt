@@ -1,0 +1,180 @@
+## see README.txt for example
+
+## empyrean-Gate
+empyrean_gate = {
+	entity = "empyrean_gateway_entity"
+	construction_entity = "empyrean_gateway_portal_entity"
+	portrait = "GFX_megastructure_construction_background"
+	place_entity_on_planet_plane = no
+	show_galactic_map_icon = no
+	
+	potential = { has_technology = tech_empyrean_gateways }
+	entity_offset = { x = -15 y = 15 }
+
+	show_galactic_map_icon = no
+	build_time = 1800
+	resources = {
+		cost = {
+			alloys = 5000
+			arcane_technology = 5000
+			influence = 200
+		}
+	}
+	construction_blocks_others = no
+
+	bypass_type = empyrean_gateway
+
+	ai_weight = {
+		factor = 5
+		
+		modifier = {
+			factor = 0
+			starbase = { NOT = { has_starbase_size >= starbase_starfortress } }
+		}
+
+		modifier = {
+			factor = 0.1
+			any_neighbor_system = { 
+				OR = {
+					has_megastructure = empyrean_gate
+					has_megastructure = empyrean_gate_upgraded
+				}
+			}
+		}
+
+		modifier = {
+			factor = 100
+			any_planet = {
+				is_capital = yes
+			}
+		}
+
+		modifier = {
+			factor = 2
+			starbase = {
+				has_starbase_module = trading_hub
+			}
+		}
+
+		modifier = {
+			factor = 4
+			starbase = {
+				has_starbase_module = shipyard
+			}
+		}
+	}
+	
+	possible = {
+		exists = starbase
+		custom_tooltip = {
+			fail_text = "requires_inside_border"
+			is_inside_border = from
+		}
+		custom_tooltip = {
+			fail_text = "requires_no_existing_empyrean_gate"
+			NOR = {
+				has_megastructure = empyrean_gate
+				has_megastructure = empyrean_gate_star
+			}
+		}
+	}
+	placement_rules = {
+		planet_possible = {
+			#custom_tooltip = {
+			#	fail_text = "requires_no_existing_megastructure"
+			#	NOR = {
+			#		has_planet_flag = megastructure
+			#		has_planet_flag = has_megastructure
+			#	}
+			#}
+			custom_tooltip = {
+				fail_text = "requires_no_anomaly"
+				NOT = { has_anomaly = yes }
+			}
+
+ 			# balance for think tanks
+			custom_tooltip = {
+				fail_text = "requires_not_minor_planetary_body"
+				NOR = {
+					is_asteroid = yes
+					is_moon = yes
+				}
+			}
+			#custom_tooltip = {
+			#	fail_text = "requires_not_star"
+			#	is_star = no
+			#}
+			custom_tooltip = {
+				fail_text = "requires_not_ring_world"
+				is_ringworld = no
+			}
+		}
+	}
+	on_build_start = {
+	}
+	on_build_cancel = {
+	}
+	on_build_complete = {
+		activate_gateway = fromfrom
+		#fromfrom.planet = {
+		#	set_planet_flag = has_megastructure
+		#}
+	}
+}
+
+# empyrean_gate_upgraded = {
+# 	entity = "empyrean_gateway_entity"
+# 	construction_entity = "empyrean_gateway_portal_entity"
+# 	portrait = "GFX_megastructure_construction_background"
+# 	place_entity_on_planet_plane = no
+# 	show_galactic_map_icon = no
+# 	
+# 	potential = {
+# 		has_technology = tech_empyrean_gateways
+# 		always = no
+# 	}
+# 
+# 	show_galactic_map_icon = no
+# 	build_time = 1800
+# 	resources = {
+# 		cost = {
+# 			alloys = 2500
+# 			arcane_technology = 5000
+# 		}
+# 	}
+# 	construction_blocks_others = no
+# 
+# 	bypass_type = empyrean_gateway
+# 
+# 	ai_weight = {
+# 		factor = 0	
+# 	}
+# 	
+# 	possible = {
+# 		exists = starbase
+# 		custom_tooltip = {
+# 			fail_text = "requires_inside_border"
+# 			is_inside_border = from
+# 		}
+# 		custom_tooltip = {
+# 			fail_text = "requires_no_existing_empyrean_gate"
+# 			NOT = {
+# 				solar_system = {
+# 					has_star_flag = empyrean_gate
+# 				}
+# 			}
+# 		}
+# 	}
+# 
+# 	upgrade_from = {
+# 		gateway_restored
+# 		gateway_final
+# 	}
+# 
+# 	on_build_complete = {
+# 		activate_gateway = fromfrom
+# 		solar_system = {
+# 			set_star_flag = empyrean_gate
+# 		}
+# 	}
+# }
