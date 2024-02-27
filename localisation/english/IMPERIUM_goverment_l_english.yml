@@ -2,29 +2,29 @@
 ###############################
 
 #Origins
-origin_gcs_imperium:0"§HThe Great Crusade§!"
-origin_gcs_imperium_desc:0"The Great Crusade marked a brief era in human history of rebuilding, reunification and rapid technological advancement following the complete regression of Mankind into techno-barbarism during the 5,000 Terran years of the Age of Strife. It was a time when the Emperor of Mankind still lived in the conventional sense and led His people in person."
-origin_gcs_imperium_description:0"The Emperor Protects"
+origin_gcs_imperium:0 "§HThe Great Crusade§!"
+origin_gcs_imperium_desc:0 "The Great Crusade marked a brief era in human history of rebuilding, reunification and rapid technological advancement following the complete regression of Mankind into techno-barbarism during the 5,000 Terran years of the Age of Strife. It was a time when the Emperor of Mankind still lived in the conventional sense and led His people in person."
+origin_gcs_imperium_description:0 "The Emperor Protects"
 
 #Authorities
-auth_stagnated_imperium:0"§HResurgent Imperium§!"
-auth_stagnated_imperium_desc:0"The Imperium is a type of theocratic oligarchy government, which the Imperium is the largest and most powerful political entity in the galaxy, consisting of at least a million worlds which are dispersed across most of the galaxy. An Imperial planet might be separated from its closest neighbour by hundreds or thousands of light years. As a stellar empire, the size of the Imperium cannot be measured in terms of contiguous territory, but only in the number of planetary systems in its control."
+auth_stagnated_imperium:0 "§HResurgent Imperium§!"
+auth_stagnated_imperium_desc:0 "The Imperium is a type of theocratic oligarchy government, which the Imperium is the largest and most powerful political entity in the galaxy, consisting of at least a million worlds which are dispersed across most of the galaxy. An Imperial planet might be separated from its closest neighbour by hundreds or thousands of light years. As a stellar empire, the size of the Imperium cannot be measured in terms of contiguous territory, but only in the number of planetary systems in its control."
 
 #Governments
-gov_stagnated_imperium:0"§HResurgent Imperium§!"
-gov_stagnated_imperium_desc:0"A type of theocratic oligarchy government govern by large amount of Senatorum Imperialis"
+gov_stagnated_imperium:0 "§HResurgent Imperium§!"
+gov_stagnated_imperium_desc:0 "A type of theocratic oligarchy government govern by large amount of Senatorum Imperialis"
 
 #Civic
-civic_adeptus_mechanicus_research:0"§RAdeptus Mechanicus§!"
-civic_adeptus_mechanicus_research_desc:0"The tech-adepts of the Mechanicus are the primary keepers of what is viewed as sacred wisdom, a privileged caste of Tech-priests who jealously guard the knowledge required to maintain and construct much of the Imperium's advanced technology."
-civic_solar_auxilia:0"§BSolar Auxillia§!"
-civic_solar_auxilia_desc:0"Of the myriad regiments and battalions of the Excertus Imperialis, more commonly referred to as the Imperial Army, the Solar Auxilia were among the most elite, disciplined and well-equipped fighting forces of the burgeoning Imperium of Man during the Great Crusade and Horus Heresy eras in the late 30th and early 31st Millennia."
+civic_adeptus_mechanicus_research:0 "§RAdeptus Mechanicus§!"
+civic_adeptus_mechanicus_research_desc:0 "The tech-adepts of the Mechanicus are the primary keepers of what is viewed as sacred wisdom, a privileged caste of Tech-priests who jealously guard the knowledge required to maintain and construct much of the Imperium's advanced technology."
+civic_solar_auxilia:0 "§BSolar Auxillia§!"
+civic_solar_auxilia_desc:0 "Of the myriad regiments and battalions of the Excertus Imperialis, more commonly referred to as the Imperial Army, the Solar Auxilia were among the most elite, disciplined and well-equipped fighting forces of the burgeoning Imperium of Man during the Great Crusade and Horus Heresy eras in the late 30th and early 31st Millennia."
 
 #Traits
-trait_hope_res_human:0"§HEmperor Protects§!"
-trait_hope_res_human_desc:0"Aim to restore the former glory of mankind"
-trait_man_emperor_mankind:0"Man Emperor of Mankind"
-trait_man_emperor_mankind_desc:0"He is the greatest being among our species in existences"
+trait_hope_res_human:0 "§HEmperor Protects§!"
+trait_hope_res_human_desc:0 "Aim to restore the former glory of mankind"
+trait_man_emperor_mankind:0 "Man Emperor of Mankind"
+trait_man_emperor_mankind_desc:0 "He is the greatest being among our species in existences"
 
 #Modifier
 unification_war_terra_planet_modifier:0 "§HThe Unification War of Terra§!"
@@ -132,7 +132,7 @@ unification_war_terra_planet_modifier_desc:0 "It was during these campaigns that
  civic_children_of_stars:0 "Children Of Stars"
  civic_children_of_stars_desc:0 "Over a million Terran years ago, the Aeldari alone ruled the stars of the galaxy as the undisputed masters of their own destiny. Such a position was their right, they thought, and their preeminence was beyond doubt. In many ways, the Aeldari had good reason for such hubris, for no other species had posed a serious threat to their wealth and stability for time immemorial. They were convinced that they no longer had anything to fear from the galaxy at large, and they may have been right, but the real danger came from within. For those Aeldari who yet survive, war is their only hope. Their foes - both new and old - lack the technology, wisdom and skill of the Children of the Stars; in numbers alone are their enemies insurmountable. Even when staring extinction in the face, the Aeldari will not flee nor yield. They are a proud people, determined that the flame of the craftworlds blaze brightly once more rather than flicker and die out."
  civic_seers_way:0 "Way of Seers"
- civic_seers_way_desc:0 "In the last ten thousand years, Craftworld Ulthwé has suffered thousands of attacks by the daemons of Slaanesh and the Emperor's Children, earning its nickname "Ulthwé the Damned". As a result, the Craftworld's primary enemy is Chaos, and it has placed a high emphasis on the Path of the Seer and training Warlocks, allowing the Seer Council to predict when attacks will come and better prepare Ulthwé for it. As a result of focusing on the Path of the Seer, Craftworld Ulthwé has far fewer Aspect Warriors than other Craftworlds."
+ civic_seers_way_desc:0 "In the last ten thousand years, Craftworld Ulthwé has suffered thousands of attacks by the daemons of Slaanesh and the Emperor's Children, earning its nickname \"Ulthwé the Damned\". As a result, the Craftworld's primary enemy is Chaos, and it has placed a high emphasis on the Path of the Seer and training Warlocks, allowing the Seer Council to predict when attacks will come and better prepare Ulthwé for it. As a result of focusing on the Path of the Seer, Craftworld Ulthwé has far fewer Aspect Warriors than other Craftworlds."
  civic_enjoyed_of_simple:0 "Enjoyed Of Simple Things"
  civic_enjoyed_of_simple_desc:0 "Unlike other Craftworlds, they are not particularly big on the typical Eldar Path. Instead they are more outgoing, and enjoy the simple things of life to a higher degree than other Craftworld Eldar. This, however, has earned them a reputation as barbarians among other Craftworlds. Things like settling agreements with ritual duels and a general dislike for intrigue and manipulation do not help that impression."
  civic_damaged_craftworld:0 "Damaged Craftworld"
@@ -156,7 +156,7 @@ unification_war_terra_planet_modifier_desc:0 "It was during these campaigns that
  civic_oddboyz_culture:0 "Oddboyz Culture"
  civic_oddboyz_culture_desc:0 "The most important and skilled Mekboyz are known as 'Big Meks,' who lead groups of lesser Mekboyz armed with a wide variety of Greenskin kustom equipment and Kombi-weapons, sometimes including even full warbands or whole WAAAGHs! armed with a large amount of less-than-conventional Ork weaponry. A Big Mek's mastery of technology is unsurpassed amongst the Orkoid races and a Big Mek is often seen generating a 'Kustom Force Field' around himself that protects his person and his creations. A Big Mek who becomes the leader of a Greenskin WAAAGH! will be known as a 'Mek-Boss.'"
  civic_clever_nobz:0 "Clever Nobz"
- civic_clever_nobz_desc:0 "The Snakebites Clan Kultur represents their hard-bitten resilience and stubborn refusal to die. Working on everything from your Boyz to your Vehicles (after all, when Snakebites decide to muck about with technology, they build it to last), it’s a little like having a Painboy to hand at all times… Being the most ‘old school’ of the Ork clans, the Snakebites have become highly accustomed at bringing down big prey without the aid of specialist gubbinz or technology to do it (though it can certainly help!). As a result, they have a Stratagem that is specific to their clan, the timely use of which can all but guarantee the destruction of a choice target."
+ civic_clever_nobz_desc:0 "The Snakebites Clan Kultur represents their hard-bitten resilience and stubborn refusal to die. Working on everything from your Boyz to your Vehicles (after all, when Snakebites decide to muck about with technology, they build it to last), it's a little like having a Painboy to hand at all times… Being the most 'old school' of the Ork clans, the Snakebites have become highly accustomed at bringing down big prey without the aid of specialist gubbinz or technology to do it (though it can certainly help!). As a result, they have a Stratagem that is specific to their clan, the timely use of which can all but guarantee the destruction of a choice target."
  civic_combat_specialists:0 "Combat Specialists"
  civic_combat_specialists_desc:0 "The Goffs are an Ork 'klan' who represent the largest and most aggressive of the known Greenskin klanz. The Goffs are the biggest, meanest and most brutish of all their kind, and that's saying something since they are Orks. Of all the Ork klanz, the Goffs are the most inspired by the thrill and thunder of battle. Goffs will take any excuse to start a brawl, even amongst themselves. As a result the Goffs are specialists in hand-to-hand combat who prefer their battles up close and personal. They are particularly fond of the Stikkbomb, because it is hurled by hand and is excellent for close combat in trenches, ruins, bunkers and ratholes."
  civic_farsight_enclaves:0 "Farsight Enclaves"
@@ -209,48 +209,48 @@ unification_war_terra_planet_modifier_desc:0 "It was during these campaigns that
  auth_tau_desc:0 "Each sept of the Tau Empire has its unique cultural identity wholly integrated within the greater Tau culture. This cultural identity seems to mainly derive from which Tau caste is more numerous and influential in the given sept. The Tau Empire was founded by the Tau caste called the Ethereals, who lead the Tau Empire in the name of the philosophy they have named the Greater Good."
  auth_necron_dynasty:0 "Necron Dynasty"
  auth_necron_dynasty_desc:0 "The Necrons are a race of mechanical warriors, created from the Necrontyr. They have lain dormant in their stasis-tombs for sixty million years.They are ancient beyond reckoning, pre-dating even the Eldar. At long last, however, they are beginning to awaken, seeking to reestablish the supremacy of the Necron Dynasties over the Galaxy once more."
- auth_cult_mechanicum:0"Mechanicum"
- auth_cult_mechanicum_desc:0"The beleaguered people of Mars overcome strife and disaster to reunite beneath the aegis of the newly-established theocracy of the Cult Mechanicus and the governing organisation of the Tech-priests known as the "Mechanicum." The Mechanicum Parliament is established, comprised of senior Tech-priests and magi, to govern the Red Planet."
+ auth_cult_mechanicum:0 "Mechanicum"
+ auth_cult_mechanicum_desc:0 "The beleaguered people of Mars overcome strife and disaster to reunite beneath the aegis of the newly-established theocracy of the Cult Mechanicus and the governing organisation of the Tech-priests known as the \"Mechanicum.\" The Mechanicum Parliament is established, comprised of senior Tech-priests and magi, to govern the Red Planet."
 
  #RULERS#
 
- RT_BIGBOSS:0"Big Boss"
- RT_COUNCIL:0"Councilor"
- RT_SEERCOUNCIL:0"Seer Council"
- RT_EXARCH:0"Exarch"
- RT_CHIEFTAIN:0"Chieftain"
- RT_CHIEFTESS:0"Chieftess"
- RT_ARCHON:0"Archon"
- RT_TETRARCH:0"Tetrarch"
- RT_WARMASTER:0"War Master"
- RT_PHAERON:0"Phaeron"
- RT_PHAERAKH:0"Phaerakh"
- RT_LORDDEFENDER:0"Lord Defender"
- RT_LADYDEFENDER:0"Lady Defender"
- RT_imperium_emperor:0"§HEmperor§!"
- RT_imperium_empress:0"§HEmpress§!"
+ RT_BIGBOSS:0 "Big Boss"
+ RT_COUNCIL:0 "Councilor"
+ RT_SEERCOUNCIL:0 "Seer Council"
+ RT_EXARCH:0 "Exarch"
+ RT_CHIEFTAIN:0 "Chieftain"
+ RT_CHIEFTESS:0 "Chieftess"
+ RT_ARCHON:0 "Archon"
+ RT_TETRARCH:0 "Tetrarch"
+ RT_WARMASTER:0 "War Master"
+ RT_PHAERON:0 "Phaeron"
+ RT_PHAERAKH:0 "Phaerakh"
+ RT_LORDDEFENDER:0 "Lord Defender"
+ RT_LADYDEFENDER:0 "Lady Defender"
+ RT_imperium_emperor:0 "§HEmperor§!"
+ RT_imperium_empress:0 "§HEmpress§!"
  
  
  #####################
-       govs
+ #govs
  
- gov_chaos_warband:0"Chaos Warband"
- gov_chaos_warband_desc:0"Usally Astartes Traitors and Pirates generaly very losely organized with one traitor in particular being in charge ruling through absoulte fear and brutality. Mostly to achieve their own ends"
+ gov_chaos_warband:0 "Chaos Warband"
+ gov_chaos_warband_desc:0 "Usally Astartes Traitors and Pirates generaly very losely organized with one traitor in particular being in charge ruling through absoulte fear and brutality. Mostly to achieve their own ends"
  
- gov_necron_dynasty:0"Necron Dynasty"
+ gov_necron_dynasty:0 "Necron Dynasty"
  gov_necron_dynasty_desc:0 "The Necrons are a race of mechanical warriors, created from the Necrontyr. They have lain dormant in their stasis-tombs for sixty million years. The dyansty is commanded by a necron overlord operating on their own initiative."
  
- gov_eldar_council:0"Craftworld Seer Council"
- gov_eldar_council_desc:0"The Seer Council is a collection of some of the Craftworld's most powerful Warlocks. They collectively focus their psychic powers and battle experience to be an awe-inspiring battlefield force and are exceptional at predicting future events making their vast knowledge in decision making extremely valuable" 
+ gov_eldar_council:0 "Craftworld Seer Council"
+ gov_eldar_council_desc:0 "The Seer Council is a collection of some of the Craftworld's most powerful Warlocks. They collectively focus their psychic powers and battle experience to be an awe-inspiring battlefield force and are exceptional at predicting future events making their vast knowledge in decision making extremely valuable" 
  
- gov_tau_sept:0"Tau Sept"
- gov_tau_sept_desc:0"Each sept of the Tau Empire has its unique cultural identity wholly integrated within the greater Tau culture. And is managed by the ethereals in an oligarchy form."
+ gov_tau_sept:0 "Tau Sept"
+ gov_tau_sept_desc:0 "Each sept of the Tau Empire has its unique cultural identity wholly integrated within the greater Tau culture. And is managed by the ethereals in an oligarchy form."
  
- gov_ork_clan:0"Ork Clan"
- gov_ork_clan_desc:0"Large grouping of orks normally controlled by the biggest ork around that has taken the mantle of leadership by bashing his peers to pulp"
+ gov_ork_clan:0 "Ork Clan"
+ gov_ork_clan_desc:0 "Large grouping of orks normally controlled by the biggest ork around that has taken the mantle of leadership by bashing his peers to pulp"
  
- gov_dark_eldar:0"Dark Eldar Kabal"
- gov_dark_eldar_desc:0"A Kabal is a self-governing socio-economic paramilitary organization, Always headed by an archon that rules with absoulte power."
+ gov_dark_eldar:0 "Dark Eldar Kabal"
+ gov_dark_eldar_desc:0 "A Kabal is a self-governing socio-economic paramilitary organization, Always headed by an archon that rules with absoulte power."
  
- gov_questionable_government:0"A Questionable Government"
- gov_questionable_government_desc:0"A Questionable Government, likely because your still contructing it? Hurry up and pick those ethics"
+ gov_questionable_government:0 "A Questionable Government"
+ gov_questionable_government_desc:0 "A Questionable Government, likely because your still contructing it? Hurry up and pick those ethics"

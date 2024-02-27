@@ -59,7 +59,8 @@ building_grim_reaper_statue_desc: "The galaxy is made of madness, dangers that I
 building_angel_statue: "Angel Statue"
 building_angel_statue_desc: "Hive City Angel Statue is people's beacon of hope - it's merciful eyes look at passing pilgrims, while its arms are open - as if it welcomes new martyrs to stand by the Emperor's throne."
 building_legionary_statue: "Legionary Statue"
-building_legionary_statue_desc: "In the old times, heroes of war were commemorated by commemorative plaques, monuments or with places named after them. Although thousands of years has passed, this tradition still persits - as well as wars that give birth to those heroes of legend." building_memorial_bundle:0 "Memorial Bundle"
+building_legionary_statue_desc: "In the old times, heroes of war were commemorated by commemorative plaques, monuments or with places named after them. Although thousands of years has passed, this tradition still persits - as well as wars that give birth to those heroes of legend." 
+building_memorial_bundle:0 "Memorial Bundle"
 building_memorial_bundle_desc: "Hive City Columns tend to carry life-sized scuptures of saints and angels. Many of them are used on plazas and squares, with banners hanging down to mcommemorate heroes and sacrifice made to defend the city."
 building_water_towers: "Water Towers"
 building_water_towers_desc: "A relic of the past, water containers on top of habitats are still used in grimdark future, popular among lower-class citizens. A disease which enters one of such water tanks is spreads in a flash between hundreds of families which inhabit the unfortunate apartments. Due to living outside of careful eyes of the Arbitratorum Judges, these diseases kill thousands before someone from top of the spires notices what's going down below."
@@ -88,7 +89,7 @@ building_sacred_artifact: "Sacred Artifact"
 building_sacred_artifact_desc: "Requisitions Librarians and Apothecaries Units, which provide additional research points."
 
 #################################
-             Districts
+####### Districts
 #################################
 
 district_forge_plasma_generator:0 "Forge Plasma Generator"
@@ -99,27 +100,26 @@ district_industrial_forge_plural:0 "Factories"
 district_industrial_forge_desc:0 "An industrial forge built for civilian grade goods and other miscellaneous goods managed by the ruling governor and the Adeptus Mechanicus apon the world."
 district_material_processing:0 "Material Processing"
 district_material_processing_plural:0 "Material Processing Hubs"
-district_material_processing_desc:0"Massive rows of machines and workers sift through ore and other raw materials for pure and impure compositions allowing for extreme perfection in output before being melted down §RWarning these stats DO stack and are not balanced§!"
+district_material_processing_desc:0 "Massive rows of machines and workers sift through ore and other raw materials for pure and impure compositions allowing for extreme perfection in output before being melted down §RWarning these stats DO stack and are not balanced§!"
 district_forge_lines:0 "Forge Line"
 district_forge_lines_plural:0 "Forge Lines"
 district_forge_lines_desc:0 "Forge lines that never cease in their operation of producing war machines, Agri vehicles, weapons, armor, tanks and alloys."
-district_starship_forge:0"Starship Forge"
-district_starship_forge_plural:0"Starship Forges"
-district_starship_forge_desc:0"Special forges set aside for complicated starship components to be contructed before being assembled in orbit. §RWarning these stats DO stack and are not balanced yet§!"
-district_skitarii_capital:0"Imperial Robot assembly"
-district_skitarii_capital_plural:0"Imperial Robot assemblies"
-district_skitarii_capital_desc:0"The forges of the Adeptus Mechanicus turn out many robots of the age-old designs stored within the core memory of their logic-stacks but most notable is the kastelan robots" 
+district_starship_forge:0 "Starship Forge"
+district_starship_forge_plural:0 "Starship Forges"
+district_starship_forge_desc:0 "Special forges set aside for complicated starship components to be contructed before being assembled in orbit. §RWarning these stats DO stack and are not balanced yet§!"
+district_skitarii_capital:0 "Imperial Robot assembly"
+district_skitarii_capital_plural:0 "Imperial Robot assemblies"
+district_skitarii_capital_desc:0 "The forges of the Adeptus Mechanicus turn out many robots of the age-old designs stored within the core memory of their logic-stacks but most notable is the kastelan robots" 
 
-district_algaefood_farming:0"Algae Food Distrct"
-district_algaefood_farming_plural:0"Algae food distrcts"
-district_algaefood_farming_desc:0"Farms run by workers making algae to turn into ration bars for shipment off world for the Astra Militarium or other worlds that require large amounts of food shipped"
+district_algaefood_farming:0 "Algae Food Distrct"
+district_algaefood_farming_plural:0 "Algae food distrcts"
+district_algaefood_farming_desc:0 "Farms run by workers making algae to turn into ration bars for shipment off world for the Astra Militarium or other worlds that require large amounts of food shipped"
 district_defence_laser:0 "Defence Laser Grid"
 district_defence_laser_plural:0 "Defence Lasers"
 district_defence_laser_desc:0 "A very large Imperial laser weapon grid commonly used as a static, planet-based, anti-starship defence by Imperial Planetary Defence Forces. Due to its power consumption and sheer weight, it cannot be installed on a ground vehicle of standard size."
 district_planetary_fortress:0 "Planetary Fortress"
 district_planetary_fortress_plural:0 "Planetary Fortresses"
 district_planetary_fortress_desc:0 "A massive fortress complex with an expanded garrison and training facilities for soldiers, material storage, vehicle maintinence bays, landing zones, and housing, all encased by massive walls and defensive turrets."
-
 
 district_hive_housing:0 "Hive City"
 district_hive_housing_plural:0 "Hive Cities"
@@ -166,17 +166,16 @@ district_gas_refineries_desc:0 "Great refineries devoted to producing and storin
 district_multi_refinery:0 "Great Machine Refinery"
 district_multi_refinery_plural:0 "Great Machine Refineries"
 district_multi_refinery_desc:0 "A massive facility dedicated to the refining of rare and precious materials and gases required for the fleets and worlds of the Imperium."
-district_chemical_refinery:0"Chemical Refinery" 
-district_chemical_refinery_plural:0"Chemical Refineries"
-district_chemical_refinery_desc:0"Chemical testing, mixing and production to find perfect ingredients for military purposes or construction alike."
-district_crystal_refinery:0"Crystal Processing Refinery"
-district_crystal_refinery_plural:0"Crystal Processing Refineries"
-district_crystal_refinery_desc:0"Large districts constructed to refine and find uses for any crystal like materials mined or produced otherwise, like Lorelei or other useful compositions.
+district_chemical_refinery:0 "Chemical Refinery" 
+district_chemical_refinery_plural:0 "Chemical Refineries"
+district_chemical_refinery_desc:0 "Chemical testing, mixing and production to find perfect ingredients for military purposes or construction alike."
+district_crystal_refinery:0 "Crystal Processing Refinery"
+district_crystal_refinery_plural:0 "Crystal Processing Refineries"
+district_crystal_refinery_desc:0 "Large districts constructed to refine and find uses for any crystal like materials mined or produced otherwise, like Lorelei or other useful compositions."
 
-district_refinery_housing:0"Refinery City"
+district_refinery_housing:0 "Refinery City"
 district_refinery_housing_plural:0 "Refinery Cities"
-district_refinery_housing_desc:0"Housing for workers"
-
+district_refinery_housing_desc:0 "Housing for workers"
 
 #Misc Districts					
 district_40k_city:0 "Small City"
@@ -204,24 +203,24 @@ district_armoury_storage:0 "Armoury Storage"
 district_armoury_storage_plural:0 "Armoury Storages"
 district_armoury_storage_desc:0 "Massive resource silos and storage facilities where large quantities of resources can be safely kept."
 
-district_laser_point:0"Laser defense Grid"
-district_laser_point_plural:0"Laser Defense Grids"
+district_laser_point:0 "Laser defense Grid"
+district_laser_point_plural:0 "Laser Defense Grids"
 district_laser_point_desc:0 "A very large Imperial defense laser grid commonly used as a static, planet-based, anti-starship defence by Imperial Planetary Defence Forces. Due to its power consumption and sheer weight, it cannot be installed on a ground vehicle of standard size."
 
-district_militarium_barracks:0"Militarium Barracks Sector"
-district_militarium_barracks_plural:0"Militarium Barracks Sectors"
-district_militarium_barracks_desc:0"A group of military buildings and fortresses used to house a specific group of people, such as labourers or Imperial soldiers."
+district_militarium_barracks:0 "Militarium Barracks Sector"
+district_militarium_barracks_plural:0 "Militarium Barracks Sectors"
+district_militarium_barracks_desc:0 "A group of military buildings and fortresses used to house a specific group of people, such as labourers or Imperial soldiers."
 
-district_penal_habs_housing:0"Penal Habitation Cells"
-district_penal_habs_housing_plural:0"Penal Habitation Cells"
-district_penal_habs_housing_desc:0"Cell blocks full of the unworthy to our empire, their only use now would be gruelling work in mines and material acquisition sectors"
+district_penal_habs_housing:0 "Penal Habitation Cells"
+district_penal_habs_housing_plural:0 "Penal Habitation Cells"
+district_penal_habs_housing_desc:0 "Cell blocks full of the unworthy to our empire, their only use now would be gruelling work in mines and material acquisition sectors"
 
-district_penal_mining_infrastructure:0"Penal Mining Infrastructure"
-district_penal_mining_infrastructure_plural:0"Mining Sectors"
-district_penal_mining_infrastructure_desc:0"Where we will put all the aquired prsioners to work in mining environments and labour requiring jobs to pay back for their crimes"
+district_penal_mining_infrastructure:0 "Penal Mining Infrastructure"
+district_penal_mining_infrastructure_plural:0 "Mining Sectors"
+district_penal_mining_infrastructure_desc:0 "Where we will put all the aquired prsioners to work in mining environments and labour requiring jobs to pay back for their crimes"
 
 #################################
-         Planet classes
+####### Planet classes
 #################################
 
 pc_mechanicus_forge:0 "Mechanicum Forge World"
@@ -229,25 +228,25 @@ pc_mechanicus_forge_desc:0 "A true Forge world run by the Adeptus Mechanicus onl
 mechanicus_forge_planet:0 "Forge World"
 mechanicus_forge_planet_desc:0 "A true Forge world run by the Adeptus Mechanicus only manned by tech preists, servitors, Arch-magos and associated workers"
 
-pc_relic_iom:0"§HRuins World§!"
-pc_relic_iom_desc:0"Ruins everywhere..."
-pc_city_iom:0"§HImperial Throne World§!"
-pc_city_iom_desc:0"Pearl of the civilisation..."
+pc_relic_iom:0 "§HRuins World§!"
+pc_relic_iom_desc:0 "Ruins everywhere..."
+pc_city_iom:0 "§HImperial Throne World§!"
+pc_city_iom_desc:0 "Pearl of the civilisation..."
 
 pc_armoury:0 "Armoury World"
 pc_armoury_desc:0 "This heavily defended world is used by the Departmento Munitorum to store vast amounts of weapons, ammunition, and war machines, while they await to be transported to wherever they are needed or can raise armies at a moments notice."
 armoury_planet:0 "Armoury World"
-armoury_planet_desc:0 "This heavily defended world is used by the Departmento Munitorum to store vast amounts of weapons, ammunition, and war machines, while they await to be transported to wherever they are needed or can raise armies at a moments notice.
+armoury_planet_desc:0 "This heavily defended world is used by the Departmento Munitorum to store vast amounts of weapons, ammunition, and war machines, while they await to be transported to wherever they are needed or can raise armies at a moments notice."
 
 pc_forge:0 "Forge World"
 pc_forge_desc:0 "A world covered entirely in a massive refineries and factory complexes."
 forge_planet:0 "Forge World"
 forge_planet_desc:0 "Forge World is like an immense factory, with industrial complexes soaring into the sky and mine workings burrowing deep into the planetary crust."
 
-pc_refinery:0"Refinery World"
-pc_refinery_desc:0"A world devoted to the refining, storage, and distribution of processesed chemical materials for use in other processes."
-refinery_planet:0"Refinery World"
-refinery_planet_desc:0"A Refinery World is covered by a variety of refinerys for the widely different material requirements of a large space fleet."
+pc_refinery:0 "Refinery World"
+pc_refinery_desc:0 "A world devoted to the refining, storage, and distribution of processesed chemical materials for use in other processes."
+refinery_planet:0 "Refinery World"
+refinery_planet_desc:0 "A Refinery World is covered by a variety of refinerys for the widely different material requirements of a large space fleet."
 
 pc_forgeee:0 "Armory World"
 pc_forgeee_desc:0 "A world covered entirely by vast storehouses and what industry remains is soley for the equipping of large fleets and armies."
