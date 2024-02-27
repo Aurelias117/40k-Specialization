@@ -113,9 +113,6 @@ district_skitarii_capital_desc:0"The forges of the Adeptus Mechanicus turn out m
 district_algaefood_farming:0"Algae Food Distrct"
 district_algaefood_farming_plural:0"Algae food distrcts"
 district_algaefood_farming_desc:0"Farms run by workers making algae to turn into ration bars for shipment off world for the Astra Militarium or other worlds that require large amounts of food shipped"
-district_military_barrack:0 "Military Barrack"
-district_military_barrack_plural:0 "Military Barracks"
-district_military_barrack_desc:0 "A group of military buildings used to house a specific group of people, such as labourers or Imperium soldiers."
 district_defence_laser:0 "Defence Laser Grid"
 district_defence_laser_plural:0 "Defence Lasers"
 district_defence_laser_desc:0 "A very large Imperial laser weapon grid commonly used as a static, planet-based, anti-starship defence by Imperial Planetary Defence Forces. Due to its power consumption and sheer weight, it cannot be installed on a ground vehicle of standard size."
@@ -211,6 +208,17 @@ district_laser_point:0"Laser defense Grid"
 district_laser_point_plural:0"Laser Defense Grids"
 district_laser_point_desc:0 "A very large Imperial defense laser grid commonly used as a static, planet-based, anti-starship defence by Imperial Planetary Defence Forces. Due to its power consumption and sheer weight, it cannot be installed on a ground vehicle of standard size."
 
+district_militarium_barracks:0"Militarium Barracks Sector"
+district_militarium_barracks_plural:0"Militarium Barracks Sectors"
+district_militarium_barracks_desc:0"A group of military buildings and fortresses used to house a specific group of people, such as labourers or Imperial soldiers."
+
+district_penal_habs_housing:0"Penal Habitation Cells"
+district_penal_habs_housing_plural:0"Penal Habitation Cells"
+district_penal_habs_housing_desc:0"Cell blocks full of the unworthy to our empire, their only use now would be gruelling work in mines and material acquisition sectors"
+
+district_penal_mining_infrastructure:0"Penal Mining Infrastructure"
+district_penal_mining_infrastructure_plural:0"Mining Sectors"
+district_penal_mining_infrastructure_desc:0"Where we will put all the aquired prsioners to work in mining environments and labour requiring jobs to pay back for their crimes"
 
 #################################
          Planet classes

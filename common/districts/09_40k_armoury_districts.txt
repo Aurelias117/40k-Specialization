@@ -96,7 +96,8 @@ district_defence_laser = {
 	}
 }
 
-district_military_barrack = {
+district_militarium_barracks = {
+        icon = district_militarium_barracks
 	base_buildtime = 600
 	is_capped_by_modifier = no
 
@@ -122,11 +123,13 @@ district_military_barrack = {
 
 	planet_modifier = {
 		planet_housing_add = 20
-		job_enforcer_add = 10
+		job_enforcer_add = 6
+                job_soldier_add = 4
 	}
 	
 	triggered_desc = {
 		text = job_enforcer_effect_desc
+                text = job_soldier_effect_desc
 	}
 
 	ai_weight = {

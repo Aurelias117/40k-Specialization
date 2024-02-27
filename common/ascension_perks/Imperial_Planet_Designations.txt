@@ -1,4 +1,5 @@
 ap_imperial_planet_designations = {
+        icon = imperial_planet_designations
         potential = {
 		host_has_dlc = "Megacorp"
 		OR = {
@@ -25,8 +26,10 @@ ap_imperial_planet_designations = {
 	on_enabled = {
 		custom_tooltip = "decision_Pdesignation_project_effects"
 	}		
-	ai_weight = {
-		factor = 10
+	
+        ai_weight = {
+		
+        factor = 10
 		modifier = {
 			factor = 2
 			has_ethic = ethic_pacifist

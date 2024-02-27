@@ -17,7 +17,7 @@ decision_standard_project_IOM_effects_short:2 "Reset world to standard class"
  
 decision_industrial_world_project:0 "Develop Industrial World"
 decision_industrial_world_project_desc:0 "Industrial worlds are the first step in developing Forge Worlds.  The Industrial world's focus on raw material extraction/generation makes them a valuable strategic step to developing civilizations. Be careful, as worlds are developed from Industrial to Forge to Iron Ring, the worlds get less and less hospitable to biological life."
-decision_industrial_world_project_requirements:0 "£trigger_no£ §RPlanet must have at least §Y1 $district_mining$§R or §Y$district_generator$§R and §HNO §Y$district_farming$s§!"
+decision_industrial_world_project_requirements:0 "£trigger_no£ §RPlanet must have at least §Y2 $district_mining$§R or §Y$district_generator$§R and §HNO §Y$district_farming$s§!"
 decision_industrial_world_project_effects:0 "Turns the planet into an §YIndustrialised-World§!, increasing §YMining§! and §YEnergy§! production as well as unlocking unique £district£ §YIndustrial World Districts§!."
 decision_forge_world_project:0 "Develop Forge World"
 decision_forge_world_project_desc:0 "Developed from an industrial world, the Forge world further increases the capacity to extract/generate raw resources but also provides the added capacity to refine alloys in large quantities and houses the core of Mechanicum R&D."
