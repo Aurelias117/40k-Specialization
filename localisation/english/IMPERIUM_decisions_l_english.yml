@@ -1,17 +1,17 @@
 ﻿l_english:
 #################################
-decision_arcology_project_IOM:"Imperial Throne World Project"
-decision_arcology_project_IOM_desc:"The Throne world of the Imperium where the emperor sits apon the golden throne powering the astronomican and keeping the warp rift sealed."
+decision_arcology_project_IOM: "Imperial Throne World Project"
+decision_arcology_project_IOM_desc: "The Throne world of the Imperium where the emperor sits apon the golden throne powering the astronomican and keeping the warp rift sealed."
 decision_arcology_project_IOM_effects:1 "Turns the planet into the Imperial throne world an §Y$pc_city$§!, insanely increasing £housing£ §Y$PLANET_HOUSING_TITLE$§!, §YResource Production§! and §YPop Growth§! and unlocking special £districts£ §YArcology Districts§! at the expense of the planet's natural resources becoming §Rinaccessible§!, preventing all further construction of £district£ §YGenerator§!, §YMining§! and §YAgriculture Districts§!."
 decision_arcology_project_IOM_effects_short:2 "Turns the planet into the Imperial Throne world §Y$pc_city$§!, insanely increasing £housing£ §Y$PLANET_HOUSING_TITLE$§!, §YResource Production§! and §YPop Growth§! and unlocking special §YArcology Districts§! at the expense of the planet's natural resources becoming §Rinaccessible§!"
-decision_forge_project_IOM:"Mechanicus Forge World"
-decision_forge_project_IOM_desc:"Rows apon rows of forges line this planets surface churning out alloys,war machines and industrial goods"
-decision_forge_project_IOM_effects:1"Turns the planet into a Forge world!, increasing £housing£ §Y$PLANET_HOUSING_TITLE$§!, §YAlloy Production§! and unlocking special £Forge districts£ §YArcology Districts§! at the expense of the planet's natural resources becoming §Rinaccessible§!"
-decision_forge_project_IOM_effects_short:1"Increases £housing£ §Y$PLANET_HOUSING_TITLE$§!, §YAlloy Production§! allows £district£ §YSpecial Forge Arcology Districts§!\nDisables construction of £district£ §YGenerator§!,§YMining§! and §YAgriculture Districts§! for forge world equivalents"
+decision_forge_project_IOM: "Mechanicus Forge World"
+decision_forge_project_IOM_desc: "Rows apon rows of forges line this planets surface churning out alloys,war machines and industrial goods"
+decision_forge_project_IOM_effects:1 "Turns the planet into a Forge world!, increasing £housing£ §Y$PLANET_HOUSING_TITLE$§!, §YAlloy Production§! and unlocking special £Forge districts£ §YArcology Districts§! at the expense of the planet's natural resources becoming §Rinaccessible§!"
+decision_forge_project_IOM_effects_short:1 "Increases £housing£ §Y$PLANET_HOUSING_TITLE$§!, §YAlloy Production§! allows £district£ §YSpecial Forge Arcology Districts§!\nDisables construction of £district£ §YGenerator§!,§YMining§! and §YAgriculture Districts§! for forge world equivalents"
 decision_forge_project_IOM_requirements:1 "£trigger_no£ §RAll district slots on the planet must be filled with§! §Y$district_city_plural$§! or §Y$district_industrial_plural$§!"
 decision_forge_project_IOM_desc:1 "An unceasing stretch of Forge arcologies will unite the planet from pole to pole, creating one global Forgecity churning out alloys, war machines and industrial goods. all run by the tech preists of the Adeptus Mechanicus"
-decision_standard_project_IOM:"Standard World Reconversion"
-decision_standard_project_IOM_desc:"Reset world debug"
+decision_standard_project_IOM: "Standard World Reconversion"
+decision_standard_project_IOM_desc: "Reset world debug"
 decision_standard_project_IOM_effects:1 "Resets world to standard class"
 decision_standard_project_IOM_effects_short:2 "Reset world to standard class"
  
@@ -92,7 +92,7 @@ decision_fortress_world_project_desc:0 "Builds the infrastructure required to se
 decision_fortress_world_project_requirements:0 "£trigger_no£ §RPopulation of planet must be greater than or equal to §Y20§!"		
 decision_fortress_world_project_effects:0 "Turns the planet into a §YPlanet Wide Fortress§! with their populations and economies wholly geared towards meeting the demands of Imperial defence"
 
-decision_Pdesignation_project_effects:0" Allows planets to be changed and built into designations we require, ranging from §YHive-Worlds§! to §YAgri-Worlds§!, §YForge worlds§!, §YIndustrial Worlds§!, §YRefinery Worlds§!, §YFortress Worlds§!,  all using special infrastructure and tech."
+decision_Pdesignation_project_effects:0 "Allows planets to be changed and built into designations we require, ranging from §YHive-Worlds§! to §YAgri-Worlds§!, §YForge worlds§!, §YIndustrial Worlds§!, §YRefinery Worlds§!, §YFortress Worlds§!,  all using special infrastructure and tech."
 
 ############################font color code
 ##§W Wwhite
