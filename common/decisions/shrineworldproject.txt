@@ -1,0 +1,39 @@
+decision_shrine_world_project = {
+	owned_planets_only = yes
+    ### UPDATE THIS FROM VANILLA ###
+	icon = decision_small_hive_project
+
+	enactment_time = 1600
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			minerals = 10000
+            alloys = 2000
+		}
+	}
+	effect = {
+		custom_tooltip = decision_shrine_world_project_effects
+		hidden_effect = {
+			clear_planet_modifiers = yes
+			change_pc = pc_shrine
+			set_planet_entity = {
+				entity = "shrine_planet"
+				graphical_culture = owner
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 5
+			owner = {
+				has_monthly_income = {
+					resource = unity
+					value < 50
+				}
+			}
+		}
+	}
+}

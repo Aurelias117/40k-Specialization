@@ -213,7 +213,7 @@ district_shrine_hive = {
 		exists = from
 		from = { is_regular_empire = yes }
 		OR = {
-            uses_district_set = mc_shrine_world
+            uses_district_set = shrine_world
 		}
 	}
 
@@ -221,7 +221,7 @@ district_shrine_hive = {
 		exists = owner
 		owner = { is_regular_empire = yes }
 		OR = {
-            uses_district_set = mc_shrine_world
+            uses_district_set = shrine_world
 		}
 	}
 
@@ -409,7 +409,7 @@ district_cathedral = {
 		exists = from
 		from = { is_regular_empire = yes }
 		OR = {
-            uses_district_set = mc_shrine_world
+            uses_district_set = shrine_world
 		}
 	}
 
@@ -417,7 +417,7 @@ district_cathedral = {
 		exists = owner
 		owner = { is_regular_empire = yes }
 		OR = {
-            uses_district_set = mc_shrine_world
+            uses_district_set = shrine_world
 		}
 	}
 

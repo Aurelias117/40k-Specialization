@@ -276,7 +276,18 @@ pc_shrine = {
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
-	min_distance_from_sun = 60
+        modifier = {
+		planet_max_buildings_add = 300
+                pop_ethic_spiritualist_attraction_mult = 0.5
+                planet_jobs_unity_produces_mult = 0.85
+		pop_environment_tolerance = 0.20 
+		pop_growth_speed = 0.5
+		trade_value_mult = 0.30 
+		planet_housing_mult = 0.5 
+		biological_pop_happiness = 0.30
+                army_morale = 1.5
+	
+        min_distance_from_sun = 60
 	max_distance_from_sun = 95
 	spawn_odds = 0
 	
